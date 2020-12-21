@@ -2,17 +2,38 @@ package edu.austral.dissis.starship.drawer;
 
 import edu.austral.dissis.starship.objects.Starship;
 import processing.core.PGraphics;
+import processing.core.PImage;
 
-public class ScoreDrawer {
+public class screenDrawer {
 
-    public ScoreDrawer() {
+    private final PImage BackgroundImage;
+    private final PImage goImage;
+
+    public screenDrawer(PImage image, PImage goImage) {
+        this.BackgroundImage = image;
+        this.goImage = goImage;
     }
 
+    public void draw(PGraphics graphics) {
+        graphics.pushMatrix();
+        graphics.noFill();
+        graphics.noStroke();
+        graphics.image(BackgroundImage, 0, 0);
+        graphics.popMatrix();
+    }
+
+    public void drawGameOver(PGraphics graphics){
+        graphics.pushMatrix();
+        graphics.noFill();
+        graphics.noStroke();
+        graphics.image(goImage, 0, 0);
+        graphics.popMatrix();
+    }
     public void draw(PGraphics graphics, Starship starship, float ypos) {
         graphics.pushMatrix();
         String text;
         if(starship.getLives()<1) text=starship.shipName+ " GAME OVER! Final score: "+starship.getScore();
-            else text=starship.getShipName() + " Lives: " + starship.getLives() + " Score: " + starship.getScore();
+        else text=starship.getShipName() + " Lives: " + starship.getLives() + " Score: " + starship.getScore();
         graphics.textSize(22);
         graphics.text(text,0,ypos);
         graphics.popMatrix();
@@ -27,8 +48,4 @@ public class ScoreDrawer {
         else graphics.text(text,450,ypos);
         graphics.popMatrix();
     }
-
 }
-
-
-
