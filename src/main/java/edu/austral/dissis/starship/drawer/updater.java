@@ -25,7 +25,7 @@ public class updater {
             if (!asteroids.get(i).active) asteroids.remove(i);
         }
         for (int i = 0; i < asteroids.size(); i++) {
-            Asteroid current = asteroids.get(i).moveForward();
+            Asteroid current = asteroids.get(i).moveForward(asteroids.get(i).getSpeed());
             asteroids.set(i, current.screenWarp(width,height));
         }
     }

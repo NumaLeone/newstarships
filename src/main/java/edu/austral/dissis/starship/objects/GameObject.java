@@ -14,7 +14,8 @@ public abstract class GameObject {
 
     public abstract void destroy();
 
-   // public abstract GameObject moveForward(); no me conviene hacerlo porque cada gameobject se mueve de forma distinta
+   public abstract GameObject moveForward(float speed);
+   //no me conviene hacerlo porque cada gameobject se mueve de forma distinta
 
 
 }

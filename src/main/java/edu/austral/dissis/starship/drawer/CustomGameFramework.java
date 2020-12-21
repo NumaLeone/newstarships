@@ -50,8 +50,8 @@ public class CustomGameFramework implements GameFramework {
         String player2Name;
         player1Name = JOptionPane.showInputDialog("What is player 1's name? ");
         player2Name = JOptionPane.showInputDialog("What is player 2's name? ");
-        starship1 = new Starship(vector(200, 200), vector(0, 1),true, player1Name,0,5);
-        starship2 = new Starship(vector(200, 520), vector(0, -1),true,player2Name,0,5);
+        starship1 = new Starship(vector(200, 200), vector(0, 1),true, player1Name,0,3);
+        starship2 = new Starship(vector(800, 520), vector(0, -1),true,player2Name,0,3);
 
         asteroidSpawner = new AsteroidSpawner(width,height);
         for (int i = 0; i < 5; i++) {
@@ -105,7 +105,7 @@ public class CustomGameFramework implements GameFramework {
 
         if(starship2.getLives()>0){
             if(!starship2.active){
-                starship2 = new Starship(vector(200,520),vector(0,-1),true,starship2.shipName,starship2.score,starship2.lives);
+                starship2 = new Starship(vector(800,520),vector(0,-1),true,starship2.shipName,starship2.score,starship2.lives);
             } else {
                 starship2 = starshipController2.keyHandle(keySet,starship2, lasers2);
             }

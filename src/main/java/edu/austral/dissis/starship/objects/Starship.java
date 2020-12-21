@@ -19,7 +19,7 @@ public class Starship extends GameObject{
     public Starship rotate(float angle) {
         return new Starship(position, direction.rotate(angle),active,shipName,score,lives);
     }
-
+    @Override
     public Starship moveForward(float speed) {
         return new Starship(position.add(direction.multiply(speed)), direction,active,shipName,score,lives);
     }

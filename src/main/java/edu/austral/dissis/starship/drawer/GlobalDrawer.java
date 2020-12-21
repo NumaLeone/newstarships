@@ -15,7 +15,6 @@ public class GlobalDrawer {
     private StarshipDrawer starshipDrawer2;
     private LaserDrawer laserDrawer;
     private AsteroidDrawer asteroidDrawer1;
-    private AsteroidDrawer asteroidDrawer2;
     private BackgroundDrawer backgroundDrawer;
     private ScoreDrawer scoreDrawer;
 
@@ -23,9 +22,8 @@ public class GlobalDrawer {
         scoreDrawer = new ScoreDrawer();
         starshipDrawer1 = new StarshipDrawer(imageLoader.load("spaceship.png"));
         starshipDrawer2 = new StarshipDrawer(imageLoader.load("spaceship2.png"));
-        laserDrawer = new LaserDrawer(imageLoader.load("bullet.png"));
+        laserDrawer = new LaserDrawer(imageLoader.load("laser-shot.png"));
         asteroidDrawer1 = new AsteroidDrawer(imageLoader.load("asteroid1.png"));
-        asteroidDrawer2 = new AsteroidDrawer(imageLoader.load("asteroid2.png"));
         backgroundDrawer = new BackgroundDrawer(imageLoader.load("galaxy.png"),imageLoader.load("gameover.png"));
     }
 
@@ -41,7 +39,6 @@ public class GlobalDrawer {
     private void drawAsteroids(PGraphics graphics, List<Asteroid> asteroids){
         for (int i = 0; i <asteroids.size() ; i++) {
             if(asteroids.get(i).getSpeed()<2) asteroidDrawer1.draw(graphics,asteroids.get(i));
-            else asteroidDrawer2.draw(graphics,asteroids.get(i));
         }
     }
 
@@ -61,8 +58,8 @@ public class GlobalDrawer {
 
     private void drawScores(PGraphics graphics, Starship starship1, Starship starship2){
         if(starship1.getLives()<1 && starship2.getLives()<1) {
-            scoreDrawer.drawGameOver(graphics,starship1,350,starship1.getScore()>starship2.getScore());
-            scoreDrawer.drawGameOver(graphics,starship2,390,starship2.getScore()>starship1.getScore());
+            scoreDrawer.drawGameOver(graphics,starship1,600,starship1.getScore()>starship2.getScore());
+            scoreDrawer.drawGameOver(graphics,starship2,640,starship2.getScore()>starship1.getScore());
         }
         else{
             scoreDrawer.draw(graphics,starship1,20);
@@ -82,7 +79,6 @@ public class GlobalDrawer {
         }
         for (Asteroid asteroid: asteroids) {
             if(asteroid.getSpeed()<2) collisionables.add(asteroidDrawer1.getCollisionable(asteroid));
-            else collisionables.add(asteroidDrawer2.getCollisionable(asteroid));
         }
         return collisionables;
     }

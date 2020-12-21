@@ -14,7 +14,8 @@ public class Asteroid extends GameObject {
         this.speed =speed;
     }
 
-    public Asteroid moveForward() {
+    @Override
+    public Asteroid moveForward(float speed) {
         return new Asteroid(position.add(direction.multiply(speed)), direction, active,speed);
     }
     @Override

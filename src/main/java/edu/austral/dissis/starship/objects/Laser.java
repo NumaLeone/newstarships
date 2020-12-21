@@ -13,7 +13,7 @@ public class Laser extends GameObject{
         this.shipName = shipName;
         this.scoreToAdd = scoreToAdd;
     }
-
+    @Override
     public Laser moveForward(float speed) {
         return new Laser(position.add(direction.multiply(speed)), direction, active, shipName, scoreToAdd);
     }
