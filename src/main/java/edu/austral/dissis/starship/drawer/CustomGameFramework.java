@@ -1,15 +1,11 @@
 package edu.austral.dissis.starship.drawer;
 
-import edu.austral.dissis.starship.objects.StarshipController;
+import edu.austral.dissis.starship.objects.*;
 import edu.austral.dissis.starship.base.collision.CollisionEngine;
 import edu.austral.dissis.starship.base.framework.GameFramework;
 import edu.austral.dissis.starship.base.framework.ImageLoader;
 import edu.austral.dissis.starship.base.framework.WindowSettings;
 import edu.austral.dissis.starship.collisionable.CollisionableShape;
-import edu.austral.dissis.starship.objects.Asteroid;
-import edu.austral.dissis.starship.objects.AsteroidSpawner;
-import edu.austral.dissis.starship.objects.Laser;
-import edu.austral.dissis.starship.objects.Starship;
 import processing.core.PGraphics;
 import processing.event.KeyEvent;
 
@@ -33,6 +29,7 @@ public class CustomGameFramework implements GameFramework {
     private Starship starship2;
     private final StarshipController starshipController2 = new StarshipController(0x57, 0x53, 0x41, 0x44, 0x20);
 
+    private List <GameObject> objects = new ArrayList<>();
     private List<Laser> lasers = new ArrayList<>();
     private List<Laser> lasers2 = new ArrayList<>();
     private List<Asteroid> asteroids = new ArrayList<>();
@@ -54,7 +51,7 @@ public class CustomGameFramework implements GameFramework {
         starship2 = new Starship(vector(800, 520), vector(0, -1), true, player2Name, 0, 3);
 
         asteroidSpawner = new AsteroidSpawner(width, height);
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 7; i++) {
             asteroids.add(asteroidSpawner.spawnAsteroid());
         }
 

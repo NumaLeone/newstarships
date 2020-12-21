@@ -19,16 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="513cb151-b3ca-4bc5-8db2-c372f2c63337" name="Default Changelist" comment="2">
+    <list default="true" id="513cb151-b3ca-4bc5-8db2-c372f2c63337" name="Default Changelist" comment="improvements">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/collisionable/AsteroidCollisionableShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/collisionable/AsteroidCollisionableShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/collisionable/CollisionableShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/collisionable/CollisionableShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/collisionable/LaserCollisionableShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/collisionable/LaserCollisionableShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/collisionable/NullCollisionableShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/collisionable/NullCollisionableShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/collisionable/ShipCollisionableShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/collisionable/StarshipCollisionableShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/StarshipDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/StarshipDrawer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/AsteroidSpawner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/AsteroidSpawner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/CustomGameFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/CustomGameFramework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/GlobalDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/GlobalDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/screenDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/screenDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/Asteroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/Asteroid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/Laser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/Laser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/Starship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/Starship.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +107,7 @@
       <updated>1608508495143</updated>
       <workItem from="1608508499680" duration="2847000" />
       <workItem from="1608515357458" duration="14926000" />
-      <workItem from="1608541127053" duration="14791000" />
+      <workItem from="1608541127053" duration="18470000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1608538470630</created>
@@ -130,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608553284446</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="improvements">
+      <created>1608562760261</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608562760261</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +165,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="improvements" />
   </component>
   <component name="WindowStateProjectService">
     <state x="657" y="139" key="#Main" timestamp="1608515426438">
@@ -178,22 +193,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608541133750" />
-    <state width="1877" height="204" key="GridCell.Tab.0.bottom" timestamp="1608562711621">
+    <state width="1877" height="205" key="GridCell.Tab.0.bottom" timestamp="1608563614498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="204" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608562711621" />
-    <state width="1877" height="204" key="GridCell.Tab.0.center" timestamp="1608562711621">
+    <state width="1877" height="205" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608563614498" />
+    <state width="1877" height="205" key="GridCell.Tab.0.center" timestamp="1608563614498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="204" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608562711621" />
-    <state width="1877" height="204" key="GridCell.Tab.0.left" timestamp="1608562711621">
+    <state width="1877" height="205" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608563614498" />
+    <state width="1877" height="205" key="GridCell.Tab.0.left" timestamp="1608563614498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="204" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608562711621" />
-    <state width="1877" height="204" key="GridCell.Tab.0.right" timestamp="1608562711621">
+    <state width="1877" height="205" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608563614498" />
+    <state width="1877" height="205" key="GridCell.Tab.0.right" timestamp="1608563614498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="204" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608562711621" />
+    <state width="1877" height="205" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608563614498" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1608542583027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -214,13 +229,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608515383556" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608553288598">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608562771984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608553288598" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608562771984" />
     <state x="755" y="267" key="refactoring.ChangeSignatureDialog" timestamp="1608534158210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="755" y="267" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608534158210" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1608563500746">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608563500746" />
   </component>
 </project>
