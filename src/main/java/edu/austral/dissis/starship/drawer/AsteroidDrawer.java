@@ -7,6 +7,8 @@ import edu.austral.dissis.starship.base.vector.Vector2;
 import processing.core.PGraphics;
 import processing.core.PImage;
 
+import static edu.austral.dissis.starship.drawer.StarshipDrawer.SQUARE_SIZE;
+
 public class AsteroidDrawer extends objectDrawer{
 
 
@@ -29,7 +31,7 @@ public class AsteroidDrawer extends objectDrawer{
 
         graphics.noFill();
         graphics.noStroke();
-        graphics.rect(image.pixelHeight/-2f,image.pixelHeight/-2f,image.pixelHeight,image.pixelHeight);
+        graphics.rect(SQUARE_SIZE / -2f , SQUARE_SIZE / -2f, SQUARE_SIZE, SQUARE_SIZE);
         graphics.image(image, getImageCenter(), getImageCenter());
 
         graphics.popMatrix();
@@ -37,7 +39,7 @@ public class AsteroidDrawer extends objectDrawer{
 
     public CollisionableShape getCollisionable(Asteroid asteroid) {
         return new AsteroidCollisionableShape(
-                image.pixelHeight,
+                SQUARE_SIZE,
                 calculateRotation(asteroid),
                 asteroid.getPosition(),
                 asteroid

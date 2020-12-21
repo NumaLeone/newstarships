@@ -15,21 +15,19 @@ public class GlobalDrawer {
     private StarshipDrawer starshipDrawer2;
     private LaserDrawer laserDrawer;
     private AsteroidDrawer asteroidDrawer1;
-    private BackgroundDrawer backgroundDrawer;
-    private ScoreDrawer scoreDrawer;
+    private screenDrawer screenDrawer;
 
     public GlobalDrawer(ImageLoader imageLoader){
-        scoreDrawer = new ScoreDrawer();
+        screenDrawer = new screenDrawer(imageLoader.load("galaxy.png"),imageLoader.load("gameover.png"));
         starshipDrawer1 = new StarshipDrawer(imageLoader.load("spaceship.png"));
         starshipDrawer2 = new StarshipDrawer(imageLoader.load("spaceship2.png"));
         laserDrawer = new LaserDrawer(imageLoader.load("laser-shot.png"));
         asteroidDrawer1 = new AsteroidDrawer(imageLoader.load("asteroid1.png"));
-        backgroundDrawer = new BackgroundDrawer(imageLoader.load("galaxy.png"),imageLoader.load("gameover.png"));
     }
 
     public void draw(PGraphics graphics, List<Asteroid> asteroids, List<Laser> projectiles1, List<Laser> projectiles2, Starship starship1, Starship starship2){
-        if(starship1.getLives()<1 && starship2.getLives()<1) backgroundDrawer.drawGameOver(graphics);
-        else backgroundDrawer.draw(graphics);
+        if(starship1.getLives()<1 && starship2.getLives()<1) screenDrawer.drawGameOver(graphics);
+        else screenDrawer.draw(graphics);
         drawStarships(graphics, starship1, starship2);
         drawProjectiles(graphics, projectiles1, projectiles2);
         drawAsteroids(graphics,asteroids);
@@ -58,12 +56,12 @@ public class GlobalDrawer {
 
     private void drawScores(PGraphics graphics, Starship starship1, Starship starship2){
         if(starship1.getLives()<1 && starship2.getLives()<1) {
-            scoreDrawer.drawGameOver(graphics,starship1,600,starship1.getScore()>starship2.getScore());
-            scoreDrawer.drawGameOver(graphics,starship2,640,starship2.getScore()>starship1.getScore());
+            screenDrawer.drawGameOver(graphics,starship1,600,starship1.getScore()>starship2.getScore());
+            screenDrawer.drawGameOver(graphics,starship2,640,starship2.getScore()>starship1.getScore());
         }
         else{
-            scoreDrawer.draw(graphics,starship1,20);
-            scoreDrawer.draw(graphics,starship2, 45);
+            screenDrawer.draw(graphics,starship1,20);
+            screenDrawer.draw(graphics,starship2, 45);
         }
     }
 

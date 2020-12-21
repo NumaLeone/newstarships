@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="513cb151-b3ca-4bc5-8db2-c372f2c63337" name="Default Changelist" comment="initial commit">
+    <list default="true" id="513cb151-b3ca-4bc5-8db2-c372f2c63337" name="Default Changelist" comment="2">
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
@@ -27,27 +27,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/asteroid1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/asteroid1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/asteroid2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/galaxy.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/galaxy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/gameover.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/gameover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/spaceship.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/spaceship.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/spaceship2.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/spaceship2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/AsteroidDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/AsteroidDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/BackgroundDrawer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/CustomGameFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/CustomGameFramework.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/GlobalDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/GlobalDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/ScoreDrawer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/objectDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/objectDrawer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/updater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/updater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/Asteroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/Asteroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/GameObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/Laser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/Laser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/Starship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/Starship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asteroid1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/asteroid1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asteroid2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/galaxy.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/galaxy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/gameover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/gameover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spaceship.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spaceship.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spaceship2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spaceship2.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +106,7 @@
       <updated>1608508495143</updated>
       <workItem from="1608508499680" duration="2847000" />
       <workItem from="1608515357458" duration="14926000" />
-      <workItem from="1608541127053" duration="6110000" />
+      <workItem from="1608541127053" duration="9756000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1608538470630</created>
@@ -128,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608538470630</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2">
+      <created>1608547892536</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608547892536</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +142,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="657" y="139" key="#Main" timestamp="1608515426438">
@@ -163,30 +158,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="458" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608536758995" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608532941784">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608552884878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608532941784" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608552884878" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608541133750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608541133750" />
-    <state width="1877" height="204" key="GridCell.Tab.0.bottom" timestamp="1608546293463">
+    <state width="1877" height="204" key="GridCell.Tab.0.bottom" timestamp="1608552958164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="204" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608546293463" />
-    <state width="1877" height="204" key="GridCell.Tab.0.center" timestamp="1608546293463">
+    <state width="1877" height="204" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608552958164" />
+    <state width="1877" height="204" key="GridCell.Tab.0.center" timestamp="1608552958164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="204" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608546293463" />
-    <state width="1877" height="204" key="GridCell.Tab.0.left" timestamp="1608546293463">
+    <state width="1877" height="204" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608552958164" />
+    <state width="1877" height="204" key="GridCell.Tab.0.left" timestamp="1608552958163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="204" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608546293463" />
-    <state width="1877" height="204" key="GridCell.Tab.0.right" timestamp="1608546293463">
+    <state width="1877" height="204" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608552958163" />
+    <state width="1877" height="204" key="GridCell.Tab.0.right" timestamp="1608552958164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="204" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608546293463" />
+    <state width="1877" height="204" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608552958164" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1608542583027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
