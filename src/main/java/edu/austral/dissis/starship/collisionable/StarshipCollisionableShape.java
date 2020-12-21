@@ -3,16 +3,16 @@ package edu.austral.dissis.starship.collisionable;
 import edu.austral.dissis.starship.base.vector.Vector2;
 import edu.austral.dissis.starship.objects.Starship;
 
-public class ShipCollisionableShape extends CollisionableShape {
+public class StarshipCollisionableShape extends CollisionableShape {
     Starship starship;
-    public ShipCollisionableShape(int size, float angle, Vector2 position, Starship starship) {
+    public StarshipCollisionableShape(int size, float angle, Vector2 position, Starship starship) {
         super(size, angle, position);
         this.starship = starship;
     }
 
     @Override
     public void collisionedWith(CollisionableShape collisionable){
-        collisionable.collisionedWithShip(this);
+        collisionable.collisionedWithStarship(this);
     }
 
     @Override
@@ -23,7 +23,7 @@ public class ShipCollisionableShape extends CollisionableShape {
     }
 
     @Override
-    public void collisionedWithShip(ShipCollisionableShape collisionable) {
+    public void collisionedWithStarship(StarshipCollisionableShape collisionable) {
         collisionable.starship.destroy();
     }
 

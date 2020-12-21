@@ -20,7 +20,7 @@ public class LaserCollisionableShape extends CollisionableShape {
     }
 
     @Override
-    public void collisionedWithShip(ShipCollisionableShape collisionable) {
+    public void collisionedWithStarship(StarshipCollisionableShape collisionable) {
         if(!this.laser.shipName.equals(collisionable.starship.shipName)) {
             collisionable.starship.destroy();
             this.laser.scoreToAdd = 100;

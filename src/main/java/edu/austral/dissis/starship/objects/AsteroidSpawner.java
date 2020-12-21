@@ -21,7 +21,7 @@ public class AsteroidSpawner {
 
     public List<Asteroid> AsteroidCheck(float timeSinceLastDraw, List<Asteroid> asteroids){
         tick = tick + timeSinceLastDraw/100;
-        if( tick>300) {
+        if( tick>200) {
             asteroids.add(spawnAsteroid());
             tick=0;
         }

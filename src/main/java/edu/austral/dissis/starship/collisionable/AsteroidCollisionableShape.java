@@ -24,7 +24,7 @@ public class AsteroidCollisionableShape extends CollisionableShape {
     }
 
     @Override
-    public void collisionedWithShip(ShipCollisionableShape collisionable) {
+    public void collisionedWithStarship(StarshipCollisionableShape collisionable) {
         collisionable.starship.destroy();
     }
 

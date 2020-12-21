@@ -41,7 +41,7 @@ public abstract class CollisionableShape implements Collisionable<CollisionableS
 
     public abstract void collisionedWithProjectile(LaserCollisionableShape collisionable);
 
-    public abstract void collisionedWithShip(ShipCollisionableShape collisionable);
+    public abstract void collisionedWithStarship(StarshipCollisionableShape collisionable);
 
     public abstract void collisionedWithAsteroid(AsteroidCollisionableShape collisionable);
 }

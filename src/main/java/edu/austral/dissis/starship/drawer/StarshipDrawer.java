@@ -1,7 +1,7 @@
 package edu.austral.dissis.starship.drawer;
 
 import edu.austral.dissis.starship.collisionable.NullCollisionableShape;
-import edu.austral.dissis.starship.collisionable.ShipCollisionableShape;
+import edu.austral.dissis.starship.collisionable.StarshipCollisionableShape;
 import edu.austral.dissis.starship.collisionable.CollisionableShape;
 import edu.austral.dissis.starship.objects.Starship;
 import edu.austral.dissis.starship.base.vector.Vector2;
@@ -42,7 +42,7 @@ public class StarshipDrawer extends objectDrawer{
 
     public CollisionableShape getCollisionable(Starship starship) {
         if(starship.getLives()<1) return new NullCollisionableShape();
-        return new ShipCollisionableShape(
+        return new StarshipCollisionableShape(
                 SQUARE_SIZE,
                 calculateRotation(starship),
                 starship.getPosition(),
