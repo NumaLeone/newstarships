@@ -12,13 +12,17 @@ public class Asteroid extends GameObject {
         this.direction = direction.asUnitary();
         this.active = active;
         this.speed =speed;
-        lives = 1;
     }
 
     @Override
     public Asteroid moveForward(float speed) {
         return new Asteroid(position.add(direction.multiply(speed)), direction, active,speed);
     }
+    @Override
+    public void destroy() {
+        active = false;
+    }
+
     public Asteroid screenWarp(int width, int height){
         Vector2 current = position;
         if( current.getX()>width){

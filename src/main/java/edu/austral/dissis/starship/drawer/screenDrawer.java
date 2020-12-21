@@ -32,8 +32,8 @@ public class screenDrawer {
     public void draw(PGraphics graphics, Starship starship, float ypos) {
         graphics.pushMatrix();
         String text;
-        if(starship.getLives()<1) text=starship.shipName+ " Died!";
-        else text=starship.getShipName() + " Lives: " + starship.getLives() + "| Points: " + starship.getScore();
+        if(starship.getLives()<1) text=starship.shipName+ " GAME OVER! Final score: "+starship.getScore();
+        else text=starship.getShipName() + " Lives: " + starship.getLives() + " Score: " + starship.getScore();
         graphics.textSize(22);
         graphics.text(text,0,ypos);
         graphics.popMatrix();

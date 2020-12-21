@@ -32,6 +32,16 @@ public class Starship extends GameObject{
         return new Laser(this.position,this.direction, active,shipName,0);
     }
 
+    @Override
+    public void destroy() {
+        active = false;
+        lives = lives-1;
+    }
+
+    public int getLives(){
+        return lives;
+    }
+
     public int getScore(){
         return score;
     }

@@ -26,16 +26,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/CustomGameFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/CustomGameFramework.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/GlobalDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/GlobalDrawer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/screenDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/drawer/screenDrawer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/Asteroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/Asteroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/GameObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/Laser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/Laser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/Starship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/austral/dissis/starship/objects/Starship.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TpAsteroids" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -108,6 +104,7 @@
       <workItem from="1608508499680" duration="2847000" />
       <workItem from="1608515357458" duration="14926000" />
       <workItem from="1608541127053" duration="18470000" />
+      <workItem from="1608578444146" duration="341000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1608538470630</created>
@@ -193,22 +190,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608541133750" />
-    <state width="1877" height="205" key="GridCell.Tab.0.bottom" timestamp="1608563614498">
+    <state width="1877" height="205" key="GridCell.Tab.0.bottom" timestamp="1608578595438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="205" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608563614498" />
-    <state width="1877" height="205" key="GridCell.Tab.0.center" timestamp="1608563614498">
+    <state width="1877" height="205" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608578595438" />
+    <state width="1877" height="205" key="GridCell.Tab.0.center" timestamp="1608578595437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="205" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608563614498" />
-    <state width="1877" height="205" key="GridCell.Tab.0.left" timestamp="1608563614498">
+    <state width="1877" height="205" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608578595437" />
+    <state width="1877" height="205" key="GridCell.Tab.0.left" timestamp="1608578595437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="205" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608563614498" />
-    <state width="1877" height="205" key="GridCell.Tab.0.right" timestamp="1608563614498">
+    <state width="1877" height="205" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608578595437" />
+    <state width="1877" height="205" key="GridCell.Tab.0.right" timestamp="1608578595437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="205" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608563614498" />
+    <state width="1877" height="205" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608578595437" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1608542583027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
