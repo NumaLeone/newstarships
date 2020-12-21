@@ -3,6 +3,7 @@ package edu.austral.dissis.starship.drawer;
 import edu.austral.dissis.starship.base.framework.ImageLoader;
 import edu.austral.dissis.starship.collisionable.CollisionableShape;
 import edu.austral.dissis.starship.objects.Asteroid;
+import edu.austral.dissis.starship.objects.GameObject;
 import edu.austral.dissis.starship.objects.Laser;
 import edu.austral.dissis.starship.objects.Starship;
 import processing.core.PGraphics;
@@ -25,6 +26,11 @@ public class GlobalDrawer {
         asteroidDrawer1 = new AsteroidDrawer(imageLoader.load("asteroid1.png"));
     }
 
+//    public void draw(PGraphics graphics, List<GameObject> objects){
+//        if(objects.get(0).getLives()<1 && objects.get(1).getLives()<1)screenDrawer.drawGameOver(graphics);
+//        else screenDrawer.draw(graphics);
+//        drawStarships(graphics,objects.get(0), objects.get(1));
+//    }
     public void draw(PGraphics graphics, List<Asteroid> asteroids, List<Laser> projectiles1, List<Laser> projectiles2, Starship starship1, Starship starship2){
         if(starship1.getLives()<1 && starship2.getLives()<1) screenDrawer.drawGameOver(graphics);
         else screenDrawer.draw(graphics);
