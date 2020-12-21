@@ -1,0 +1,56 @@
+edu/austral/dissis/starship/objects/Laser.java
+ edu.austral.dissis.starship.objects.Laser
+edu/austral/dissis/starship/drawer/LaserDrawer.java
+ edu.austral.dissis.starship.drawer.LaserDrawer
+edu/austral/dissis/starship/base/framework/GameManager.java
+ edu.austral.dissis.starship.base.framework.GameManager
+edu/austral/dissis/starship/drawer/ScoreDrawer.java
+ edu.austral.dissis.starship.drawer.ScoreDrawer
+edu/austral/dissis/starship/objects/StarshipController.java
+ edu.austral.dissis.starship.objects.StarshipController
+edu/austral/dissis/starship/collitionable/CollisionableShape.java
+ edu.austral.dissis.starship.collitionable.CollisionableShape
+edu/austral/dissis/starship/collitionable/NullCollisionableShape.java
+ edu.austral.dissis.starship.collitionable.NullCollisionableShape
+edu/austral/dissis/starship/drawer/AsteroidDrawer.java
+ edu.austral.dissis.starship.drawer.AsteroidDrawer
+edu/austral/dissis/starship/base/Main.java
+ edu.austral.dissis.starship.base.Main
+edu/austral/dissis/starship/drawer/GlobalDrawer.java
+ edu.austral.dissis.starship.drawer.GlobalDrawer
+edu/austral/dissis/starship/drawer/StarshipDrawer.java
+ edu.austral.dissis.starship.drawer.StarshipDrawer
+edu/austral/dissis/starship/objects/Starship.java
+ edu.austral.dissis.starship.objects.Starship
+edu/austral/dissis/starship/base/vector/Vector2.java
+ edu.austral.dissis.starship.base.vector.Vector2
+edu/austral/dissis/starship/drawer/updater.java
+ edu.austral.dissis.starship.drawer.updater
+edu/austral/dissis/starship/drawer/BackgroundDrawer.java
+ edu.austral.dissis.starship.drawer.BackgroundDrawer
+edu/austral/dissis/starship/drawer/objectDrawer.java
+ edu.austral.dissis.starship.drawer.objectDrawer
+edu/austral/dissis/starship/collitionable/LaserCollisionableShape.java
+ edu.austral.dissis.starship.collitionable.LaserCollisionableShape
+edu/austral/dissis/starship/base/collision/Collisionable.java
+ edu.austral.dissis.starship.base.collision.Collisionable
+edu/austral/dissis/starship/base/collision/CollisionEngine.java
+ edu.austral.dissis.starship.base.collision.CollisionEngine
+edu/austral/dissis/starship/objects/AsteroidSpawner.java
+ edu.austral.dissis.starship.objects.AsteroidSpawner
+edu/austral/dissis/starship/objects/Asteroid.java
+ edu.austral.dissis.starship.objects.Asteroid
+edu/austral/dissis/starship/base/framework/ImageLoader.java
+ edu.austral.dissis.starship.base.framework.ImageLoader
+edu/austral/dissis/starship/base/framework/WindowSettings.java
+ edu.austral.dissis.starship.base.framework.WindowSettings
+edu/austral/dissis/starship/drawer/CustomGameFramework.java
+ edu.austral.dissis.starship.drawer.CustomGameFramework
+edu/austral/dissis/starship/base/framework/GameFramework.java
+ edu.austral.dissis.starship.base.framework.GameFramework
+edu/austral/dissis/starship/collitionable/AsteroidCollisionableShape.java
+ edu.austral.dissis.starship.collitionable.AsteroidCollisionableShape
+edu/austral/dissis/starship/collitionable/ShipCollisionableShape.java
+ edu.austral.dissis.starship.collitionable.ShipCollisionableShape
+edu/austral/dissis/starship/objects/GameObject.java
+ edu.austral.dissis.starship.objects.GameObject
